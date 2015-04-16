@@ -1,4 +1,4 @@
-{% load_yaml 'web/khanifest/users.yaml' as users_yaml -}
+{% load_yaml 'web/khanifest/users.yaml' as users_yaml -%}
 {% for user in users_yaml %}
 user-present-{{user.name}}:
   user.present:
