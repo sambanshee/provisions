@@ -1,5 +1,5 @@
 {% import_yaml 'web/khanifest/users.yaml' as users_yaml %}
-{% for user in users_yaml %}
+{% for username, user in users_yaml.iteritems() %}
 user-present-{{user.name}}:
   user.present:
     - name: {{user.name}}
