@@ -8,5 +8,5 @@ user-present-{{user.name}}:
     - fullname: {{user.name}}
     - password: '{{user.password}}'
     - groups:
-      - admin
+      - sudo
 {% endfor %}
