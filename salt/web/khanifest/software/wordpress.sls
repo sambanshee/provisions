@@ -1,6 +1,6 @@
 wordpress-unzip:
   cmd.run:
-    - name: unzip -qq /srv/salt/web/khanifest/files/wordpress.zip /opt/www/khanifest/
+    - name: unzip -qq /opt/wordpress.zip 'wordpress/*' /opt/www/khanifest/
     - user: www-data
 
 
