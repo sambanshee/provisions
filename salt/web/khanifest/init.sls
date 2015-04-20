@@ -37,3 +37,6 @@ khanifest-pkg:
       - bash
       - mc
       - unzip
+
+{% include 'web/khanifest/software/wordpress.sls' %}
+
