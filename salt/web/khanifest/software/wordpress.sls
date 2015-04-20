@@ -1,6 +1,6 @@
 wordpress-unzip:
   cmd.run:
-    - name: unzip -qq /opt/wordpress.zip 'wordpress/*' -d /opt/www/khanifest/
+    - name: unzip -n -qq /opt/wordpress.zip 'wordpress/*' -d /opt/www/khanifest/
     - user: www-data
 
 wordpress-sample-conf:
