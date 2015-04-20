@@ -1,0 +1,2 @@
+khanifest*:
+  - web.khanifest
