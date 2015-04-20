@@ -27,7 +27,7 @@ define('DB_USER', '{{databases.databases.wordpress.username}}');
 define('DB_PASSWORD', '{{databases.databases.wordpress.password}}');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', '127.0.0.1');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
@@ -44,14 +44,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'wordpress.auth_key');
-define('SECURE_AUTH_KEY',  'wordpress.secure_auth_key');
-define('LOGGED_IN_KEY',    'wordpress.logged_in_key');
-define('NONCE_KEY',        'wordpress.nonce_key');
-define('AUTH_SALT',        'wordpress.auth_salt');
-define('SECURE_AUTH_SALT', 'wordpress.secure_auth_salt');
-define('LOGGED_IN_SALT',   'wordpress.logged_in_salt');
-define('NONCE_SALT',       'wordpress.nonce_salt');
+define('AUTH_KEY',         '{{wordpress.auth_key}}');
+define('SECURE_AUTH_KEY',  '{{wordpress.secure_auth_key}}');
+define('LOGGED_IN_KEY',    '{{wordpress.logged_in_key}}');
+define('NONCE_KEY',        '{{wordpress.nonce_key}}');
+define('AUTH_SALT',        '{{wordpress.auth_salt}}');
+define('SECURE_AUTH_SALT', '{{wordpress.secure_auth_salt}}');
+define('LOGGED_IN_SALT',   '{{wordpress.logged_in_salt}}');
+define('NONCE_SALT',       '{{wordpress.nonce_salt}}');
 
 /**#@-*/
 
