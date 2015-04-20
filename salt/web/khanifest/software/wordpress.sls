@@ -9,7 +9,8 @@ wordpress-sample-conf:
 
 wordpress-conf:
   file.managed:
-    - name: salt://web/khanifest/files//wp-config.php
+    - name: /opt/www/khanifest/wp-config.php
+    - source:  salt://web/khanifest/files/wp-config.php
     - user: www-data
     - template: jinja
     - mode: 0600
