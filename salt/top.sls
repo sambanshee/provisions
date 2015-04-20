@@ -1,2 +1,3 @@
-khanifest*:
-  - web.khanifest
+base:
+  'khanifest*':
+    - web.khanifest
