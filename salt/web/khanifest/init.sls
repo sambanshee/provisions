@@ -2,11 +2,11 @@ swap-file-cmd:
   cmd.run:
     - name: fallocate -l 512M /opt/swap
 
-was-swap-file-format:
+swap-file-format:
   cmd.wait:
     - name: mkswap /opt/swap
     - watch:
-      - cmd: was-swap-file-cmd
+      - cmd: swap-file-cmd
 
 swap-perm:
   file.managed:
