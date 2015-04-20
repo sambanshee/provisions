@@ -12,6 +12,7 @@ wordpress-conf:
     - name: /opt/www/khanifest/wp-config.php
     - source:  salt://web/khanifest/files/wp-config.php
     - user: www-data
+    - cwd: /opt/www
     - template: jinja
     - mode: 0600
 
