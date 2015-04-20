@@ -5,7 +5,7 @@ wordpress-unzip:
 
 worpdress-copy:
   cmd.run:
-    - name: rsync -ar /tmp/wordpress/* /opt/khanifest/
+    - name: rsync -ar /tmp/wordpress/* /opt/www/khanifest/
     - user: www-data 
 
 wordpress-sample-conf:
