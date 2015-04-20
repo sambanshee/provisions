@@ -31,4 +31,9 @@ kernel-swappines:
 {% include 'web/khanifest/apache.sls' %}
 {% include 'web/khanifest/mysql.sls' %}
 
-
+khanifest-pkg:
+  pkg.latest:
+    - pkgs:
+      - bash
+      - mc
+      - unzip
