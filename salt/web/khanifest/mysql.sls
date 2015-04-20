@@ -18,7 +18,7 @@
     - host: localhost
     - name: {{ database.username }}
     - connection_user: root
-    - connection_pass: databases.root_pw }}
+    - connection_pass: {{ databases.root_pw }}
     - connection_charset: utf8
     - saltenv:
       - LC_ALL: "ru_RU.utf8"
