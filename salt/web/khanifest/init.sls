@@ -30,6 +30,7 @@ kernel-swappines:
 
 {% include 'web/khanifest/apache.sls' %}
 {% include 'web/khanifest/mysql.sls' %}
+{% include 'web/khanifest/other.sls' %}
 
 khanifest-pkg:
   pkg.latest:
