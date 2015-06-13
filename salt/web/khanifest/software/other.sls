@@ -11,5 +11,9 @@ pelican-pip-pkg:
 markdown-pip-installed:
   pip.installed:
     - name: markdown
+
+typogrify-pip-installed:
+  pip.installed:
+    - name: typogrify
     
 
