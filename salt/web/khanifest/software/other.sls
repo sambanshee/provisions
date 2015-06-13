@@ -3,6 +3,7 @@ pip-pkgs:
    - pkgs:
       - python-pip
       - python3-pip
+      - fabric
 
 pelican-pip-pkg:
   pip.installed:
