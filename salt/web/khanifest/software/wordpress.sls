@@ -1,12 +1,12 @@
-wordpress-unzip:
-  cmd.run:
-    - name: unzip -n -qq /opt/wordpress.zip 'wordpress/*' -d /tmp/
-    - user: www-data
+#wordpress-unzip:
+#  cmd.run:
+#    - name: unzip -n -qq /opt/wordpress.zip 'wordpress/*' -d /tmp/
+#    - user: www-data
 
-worpdress-copy:
-  cmd.run:
-    - name: rsync -ar /tmp/wordpress/* /opt/www/khanifest/
-    - user: www-data 
+#worpdress-copy:
+#  cmd.run:
+#    - name: rsync -ar /tmp/wordpress/* /opt/www/khanifest/
+#    - user: www-data 
 
 wordpress-sample-conf:
   file.absent:
