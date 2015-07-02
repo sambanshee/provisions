@@ -1,6 +1,6 @@
 swap-file-cmd:
   cmd.run:
-    - name: fallocate -l 512M /opt/swap
+    - name: fallocate -l 2G /opt/swap
 
 swap-file-format:
   cmd.wait:
