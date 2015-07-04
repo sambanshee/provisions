@@ -21,7 +21,7 @@ mount-swap:
 kernel-swappines:
   sysctl.present:
     - name: vm.swappiness
-    - value: 5
+    - value: 10
 
 {% include 'web/khanifest/users.sls' %}
 
