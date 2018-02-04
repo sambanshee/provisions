@@ -1,6 +1,6 @@
 swap-file-cmd:
   cmd.run:
-    - name: fallocate -l 2G /opt/swap
+    - name: fallocate -l 1G /opt/swap
 
 swap-file-format:
   cmd.wait:
@@ -21,7 +21,7 @@ mount-swap:
 kernel-swappines:
   sysctl.present:
     - name: vm.swappiness
-    - value: 10
+    - value: 1
 
 {% include 'web/khanifest/users.sls' %}
 

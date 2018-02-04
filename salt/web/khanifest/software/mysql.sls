@@ -1,7 +1,7 @@
 mariadb-pkgs:
   pkg.installed:
     - pkgs:
-       - mariadb-server-5.5
-       - mariadb-client-5.5 
-       - php5-mysql
+       - mariadb-server
+       - mariadb-client
+       - php7-mysql
        - python-mysqldb
