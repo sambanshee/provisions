@@ -3,5 +3,5 @@ mariadb-pkgs:
     - pkgs:
        - mariadb-server
        - mariadb-client
-       - php7-mysql
+       - php7.1-mysql
        - python-mysqldb
